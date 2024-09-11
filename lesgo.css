@@ -1,0 +1,23 @@
+section{
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;;
+}
+div{
+    background-color: aqua;
+    width: 50%;
+    height: 70%;
+}
+article{
+    background-color: yellow;
+    font-size: 20px;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    font-size: 0.9em;
+}
+ul{
+    font-size: 0.5rem; 
+}

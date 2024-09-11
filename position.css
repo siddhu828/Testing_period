@@ -1,0 +1,39 @@
+div{
+    width: 30px;
+    height: 30px;
+    background-color: navy;
+    border:2px black solid;
+    display: inline-block;
+    margin: 5px;
+}
+#middle{
+    background-color: green;
+}
+#static #middle{
+    position: static;
+    /* no change with the values for top and right or left and bottom */
+    top: 100px;
+    right: 40px;
+}
+#relative #middle{
+    position: relative;
+    /* 100px down and for bottom it will shift to 100px upwards OR USE NEGATIVE VALUES */
+    top: 100px;
+    /* 100px right andfor right it will shift to left by 100px OR USE NEGATIVE VALUES */
+    left: 100px;
+
+}
+#absolute{
+    position: relative;
+}
+#absolute #middle{
+    /* we see only 2 divs because green div is removed form the flow of the page layout and the other blue div is behind the green div */
+     position: absolute;
+     top: 1px;
+     left: 1px;
+}
+#fixed #middle{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}

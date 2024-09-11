@@ -1,0 +1,42 @@
+*{
+    background-color: #f1faee;
+}
+button:hover{
+    color: navy;
+    background-color: green;
+}
+#fuck:active{
+    color: burlywood;
+    background-color: cadetblue;
+}
+h1,h2{
+    color: #1d3557;
+    
+}
+span{
+    color: orange;
+}
+.tago:hover{
+    color: hotpink;
+    background-color: burlywood;
+    font-size: 12;
+    font-weight: bold;
+}
+span a{
+    color: hotpink;
+    font-size: x-large;
+    text-decoration: none;
+}
+input{
+    color: red;
+}
+input[type="password"] {
+    color: greenyellow;
+}
+a:hover{
+    color:rebeccapurple;
+}
+p::first-letter{
+    text-decoration: underline blue wavy;
+    font-weight: bolder;
+}

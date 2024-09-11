@@ -1,0 +1,31 @@
+ h1{
+    text-align: center;
+    padding: 20px;
+    width: 170px;
+    border: 5px black solid;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-weight: lighter;
+}
+h1:nth-of-type(1){
+    background-color: whitesmoke;
+}
+ h1:nth-of-type(2n){
+    background-color: rgb(173, 255, 47);
+}
+ h1:nth-of-type(3n){
+    background-color: gold;
+}
+#rrr h1:nth-of-type(1){
+    transform: rotate(30deg);
+}
+#rrr h1:nth-of-type(2){
+    transform: scale(0.2);
+}
+#rrr h1:nth-of-type(3){
+    transform: translatex(30px);
+}
+section:nth-of-type(2) h1:nth-of-type(3){
+    transform: skew(30deg);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">Kuch toh likh de:</label>
+            <input type="text" id="username" placeholder="write some shit up" name="username">
+        </p>
+        <p>
+            <label for="files">enter files here:</label>
+            <input type="file" id="files" name="files">
+        </p>
+        <p>
+            <label for="numbers">enter numbers:</label>
+            <input type="number" id="numbers" placeholder="numbers" name="name" min="1" max="1000">
+        </p>
+        <p>
+            <label for="passwords">enter the password:</label>
+            <input type="password" id="passwords" placeholder="password" name="password" minlength="3" maxlength="10" required>
+        </p>
+        <p>
+            <label for="cheese">amount of cheese</label>
+            <!--value here sets the default value; khulte hi jo milegi-->
+             <input type="range" id="cheese" name="amt_of_cheese" value="4" min="1" max="10">
+        </p>
+        <!--<label for="months">enter the month</label>
+        <input type="month" id="months">
+        <input type="radio">
+        <input type="submit">
+        <input type="search">
+        <input type="color">
+        <input type="password" placeholder="password">-->
+        <button type="button">Dont submit</button>
+        <button type="submit">chal karde submit</button>
+        <input type="submit" value="Click Me! Close your Eyes!! and miss me!">
+    </form>
+    <hr>
+    <h2>Hijacking yotube and google</h2>
+    <form action="https://www.youtube.com/results">
+        <p>
+            <label for="youtube_search">YOUTUBE SEARCH</label> 
+            <input type="text" name="search_query" id="youtube_search">
+            <button>Search Youtube</button>
+        </p>
+    </form>
+    <form action="https://www.google.co.in/search"> 
+        <p>
+            <label for="google_search">GOOGLE SEARCH</label>
+            <input type="text" name="q" id="google_search">
+            <button>Search Google</button> 
+        </p>
+    </form>
+    <hr>
+    <h2>More Stuff</h2>
+    
+    <form action="/birds">
+        <input type="checkbox" name="dobby" id="elf" checked>
+        <label for="elf">i am a free elf</label>
+        <p>
+            <label for="radiohead">XS:</label>
+            <input type="radio" name="size" id="radiohead" value="XS">
+            <label for="radiohea">S:</label>
+            <input type="radio" name="size" id="radiohea"  value="S">
+            <label for="radiohe">M:</label>
+            <input type="radio" name="size" id="radiohe" value="M">
+        </p>
+        <p> 
+            <label for="entree">please select an entree</label>
+            <select name="entree" id="entree">
+                <option value="">choose an option</option>
+                <option value="fish">Fish</option>
+                <option value="steak">Steak</option>
+                <option value="veggies" >vegetables</option>
+            </select>
+        </p>
+        <p>
+            <label for="funstuff">any requests?</label>
+            <br>
+            <textarea name="funstuff" id="funstuff" cols="30" rows="10" placeholder="type here"></textarea>
+        </p>
+        <button>submit</button>
+    </form>
+    <hr>
+    <h2>Validations</h2>
+    <form action="/fuck">
+        <p>
+            <label for="fname">Enter first name</label>
+            <input type="text" id="fname" name="first_name" placeholder="type here" required>
+            <button>submit</button>
+        </p>
+    </form>
+</body>
+</html>

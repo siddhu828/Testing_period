@@ -1,0 +1,27 @@
+span{
+    background-color: violet;
+    border: 3px solid firebrick;
+    /* width ka upar neeche wont work cause it is an inline element */
+    width: 500px;
+    /* padding works */
+    padding:5px;
+    /* margin of top is ignored */
+    margin: 50px;
+    /* solution to all  our problems */
+    display: inline-block;
+}
+div{
+    background-color: gold;
+    border:3px solid hotpink;
+    /* everything works */
+    width: 500px;
+    padding:30px;
+    margin: 40px;
+}
+.onetwokafour{
+    background-color: grey;
+    border:2px solid wheat;
+    width: 0px;
+    margin: 0px;
+    display: inline-block;
+}

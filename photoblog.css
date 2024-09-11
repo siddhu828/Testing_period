@@ -1,0 +1,28 @@
+nav{
+    color: black;
+    text-transform: uppercase;
+    font-family: raleway,sans-serif;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    font-size: 1.5em;
+    margin: calc(10%/6);
+    padding: 1.2em 0;
+} 
+img{
+    width: 30%;
+    margin: calc(10%/6);
+}
+/* .first{
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.second{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.third{
+    margin-right: 50px;
+    margin-bottom: 50px;
+} */
